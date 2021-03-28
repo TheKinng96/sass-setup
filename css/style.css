@@ -1,15 +1,12 @@
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 header {
   max-width: 100vw;
   position: relative;
-}
-
-header .bg-image-container img {
-  width: 100%;
-  height: auto;
+  background: url(https://source.unsplash.com/1600x900/?people);
+  background-size: cover;
+  padding-top: 45%; 
 }
 
 header .page-info {
@@ -21,46 +18,46 @@ header .page-info {
   border-radius: 1rem;
   padding: 3rem 3rem 1rem;
   width: 70%;
-  box-shadow: 4px 4px 10px rgb(0 0 0 / 25%);
+  box-shadow: 4px 4px 10px #001900; 
 }
-
+  
 header .page-info h1 {
   font-size: 3rem;
-  margin: 0;
+  margin: 0; 
 }
-
+  
 header .page-info h2 {
   color: #a6a6a6;
-  font-size: 1.25rem;
+  font-size: 1.25rem; 
 }
-
+  
 header .page-info .author-container {
   display: flex;
-  border-top: 1px solid rgba(131, 131, 131, 0.25);
-  padding-top: 1rem;
+  border-top: 1px solid #838383;
+  padding-top: 1rem; 
 }
-
+    
 header .page-info .author-container img {
   height: 4rem;
-  border-radius: 50%;
+  border-radius: 50%; 
 }
-
+    
 header .page-info .author-container .name-time {
-  margin: auto auto auto 1rem;
+  margin: auto auto auto 1rem; 
 }
-
+  
 header .page-info .author-container .name-time h3 {
-  margin: 0;
+  margin: 0; 
 }
 
 header .page-info .author-container .name-time time {
-  color: #a6a6a6;
+  color: #a6a6a6; 
 }
 
 header .page-info .author-container .tag {
-  margin: auto 0;
+  margin: auto 0; 
 }
-
+        
 header .page-info .author-container .tag a {
   text-decoration: none;
   font-size: 1.1rem;
@@ -68,33 +65,33 @@ header .page-info .author-container .tag a {
   background: cadetblue;
   padding: 0.5rem 1rem;
   border-radius: 2rem;
-  margin: auto;
+  margin: auto; 
 }
 
 main {
   font-size: 1.2rem;
   max-width: 70%;
-  margin: 12rem auto 0;
+  margin: 12rem auto 0; 
 }
-
+  
 main article {
-  border-bottom: 1px solid #a6a6a6;
+  border-bottom: 1px solid #a6a6a6; 
 }
-
+  
 main .share-buttons {
   width: max-content;
-  margin: 2rem auto;
+  margin: 2rem auto; 
 }
-
+  
 main .share-buttons a {
   text-decoration: none;
   color: #fdc500;
   margin: 1rem;
-  position: relative;
+  position: relative; 
 }
-
+    
 main .share-buttons a::before {
-  content:'';
+  content: '';
   position: absolute;
   background: darkblue;
   width: 3rem;
@@ -104,15 +101,15 @@ main .share-buttons a::before {
   top: 0;
   left: 0;
   z-index: -1;
-  transform: translate(-32%, -32%);
+  transform: translate(-32%, -32%); 
 }
 
 footer {
   color: white;
   background: black;
-  padding: 1rem;
+  padding: 1rem; 
 }
 
 footer .footer-content-container {
-  text-align: center;
+  text-align: center; 
 }
